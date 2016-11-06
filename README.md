@@ -28,7 +28,7 @@ Die einzelnen Felder haben folgende Bedeutung:
 
 Für die UID berücksichtigen Sie bitte die Liste der Dateinamen aus diesem Repository.
 
-Um den Erfolg zu veröffentlichen klonen Sie dieses Repository und fügen Sie die Datei hinzu, die Sie mit dem Knopf "XML erzeugen" herunterladen können. Anschließend erstellen Sie einen pull request. Nach einer Pürfung des Codes werde ich den Erfolg dann übernehmen.
+Um den Erfolg zu veröffentlichen klonen Sie dieses Repository und fügen Sie die Datei hinzu, die Sie mit dem Knopf "XML erzeugen" herunterladen können. Anschließend erstellen Sie einen pull request. Nach einer Prüfung des Codes werde ich den Erfolg dann übernehmen.
 
 ## Die point cuts
 
