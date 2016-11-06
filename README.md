@@ -30,9 +30,9 @@ Die einzelnen Felder haben folgende Bedeutung:
 
 Derzeit stehen folgende point cuts zur Verfügung:
 
-* saveMe - Wird beim Speichern eines Datensatzes ausgeführt
-* newMe - Wird beim Erstellen eines neuen Datensatzes ausgeführt
-* deleteMe - Wird beim Löschen eines Datensatzes ausgeführt
+* ::saveMe - Wird beim Speichern eines Datensatzes ausgeführt
+* ::newMe - Wird beim Erstellen eines neuen Datensatzes ausgeführt
+* ::deleteMe - Wird beim Löschen eines Datensatzes ausgeführt
 
 Adresse::deleteMe wird entsprechend aufgerufen, wenn eine Adresse aus dem System gelöscht wird.
 
@@ -52,14 +52,14 @@ class CLASSNAME implements iAchievement {
 }
 ```
 
-Das CLASSNAME ist in diesem Fall ein Platzhalter, der bei der Instanzierung automatisch ersetzt wird.
-Die Methode run() wird dann ausgeführt und muss "true" zurückgeben, wenn der Erfolg erfüllt ist, oder andernfalls "false.
+Der "CLASSNAME" ist in diesem Fall ein Platzhalter, der bei der Instanzierung automatisch ersetzt wird.
+Die Methode run() wird dann ausgeführt und muss "true" zurückgeben, wenn der Erfolg erfüllt ist, oder andernfalls "false".
 
 In diesem Beispiel wird nach dem Speichern des Belegs geprüft, ob es sich um eine Rechnung handelt und ob der Bruttobetrag größer als 30 000 ist. Falls ja, wird "true" zurück gegeben.
 
 
-Die im Array $args enthaltenen Werte sind wie folgt:
+Die im Array $args enthaltenen Werte sind wie folgt definiert:
 
-* saveMe: in [0] befinden sich die Attribute des gespeicherten Datensatzes
-* deleteMe: in [0] befinden sich die Attribute des gelöschten Datensatzes
-* newMe: in [0] befinden sich die Attribute des gerade angelegten Datensatzes
+* ::saveMe: in [0] befinden sich die Attribute des gespeicherten Datensatzes
+* ::deleteMe: in [0] befinden sich die Attribute des gelöschten Datensatzes
+* ::newMe: in [0] befinden sich die Attribute des gerade angelegten Datensatzes
