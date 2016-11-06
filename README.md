@@ -4,4 +4,4 @@ In diesem Repository werden die Erfolge verwaltet, die im phynx Framework zur Ve
 
 Jeder ist dazu eingeladen, weitere Erfolge zu erstellen und per pull request zu diesem Repository hinzuzufügen.
 
-Das Erfolge-Plugin ist kostenlos im Shop auf open3A.de verfügbar.
+Das Erfolge-Plugin ist kostenlos im Shop auf open3A.de (https://www.open3a.de/page-Plugins) verfügbar.
