@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phynx>
+	<entry class="Achievement">
+		<id>7</id>
+		<attribute name="AchievementName"><![CDATA[Firmenkunde]]></attribute>
+		<attribute name="AchievementDescription"><![CDATA[Erstellen Sie eine Adresse mit einem Eintrag in der Firma-Zeile]]></attribute>
+		<attribute name="AchievementPointCut"><![CDATA[Adresse::saveMe]]></attribute>
+		<attribute name="AchievementIcon"><![CDATA[./images/navi/address.png]]></attribute>
+		<attribute name="AchievementPoints"><![CDATA[5]]></attribute>
+		<attribute name="AchievementRequirements"><![CDATA[]]></attribute>
+		<attribute name="AchievementClass"><![CDATA[class CLASSNAME implements iAchievement {
+	public function run(Achievement $A, AchievementStatus $S, array $args) {
+		if($args[0]->firma != "")
+			return true;
+		
+		return false;
+	}
+}]]></attribute>
+		<attribute name="AchievementPlugin"><![CDATA[Adressen]]></attribute>
+		<attribute name="AchievementUID"><![CDATA[100002]]></attribute>
+		
+	</entry>
+</phynx>

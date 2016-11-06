@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phynx>
+	<entry class="Achievement">
+		<id>9</id>
+		<attribute name="AchievementName"><![CDATA[Ein Kunde weniger]]></attribute>
+		<attribute name="AchievementDescription"><![CDATA[Löschen Sie eine Adresse]]></attribute>
+		<attribute name="AchievementPointCut"><![CDATA[Adresse::deleteMe]]></attribute>
+		<attribute name="AchievementIcon"><![CDATA[./images/navi/address.png]]></attribute>
+		<attribute name="AchievementPoints"><![CDATA[5]]></attribute>
+		<attribute name="AchievementRequirements"><![CDATA[]]></attribute>
+		<attribute name="AchievementClass"><![CDATA[]]></attribute>
+		<attribute name="AchievementPlugin"><![CDATA[Adressen]]></attribute>
+		<attribute name="AchievementUID"><![CDATA[100003]]></attribute>
+		
+	</entry>
+</phynx>

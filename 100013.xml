@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phynx>
+	<entry class="Achievement">
+		<id>3</id>
+		<attribute name="AchievementName"><![CDATA[Der erste Artikel]]></attribute>
+		<attribute name="AchievementDescription"><![CDATA[Erstellen Sie einen neuen Artikel]]></attribute>
+		<attribute name="AchievementPointCut"><![CDATA[Artikel::newMe]]></attribute>
+		<attribute name="AchievementIcon"><![CDATA[./images/navi/package.png]]></attribute>
+		<attribute name="AchievementPoints"><![CDATA[5]]></attribute>
+		<attribute name="AchievementRequirements"><![CDATA[]]></attribute>
+		<attribute name="AchievementClass"><![CDATA[]]></attribute>
+		<attribute name="AchievementPlugin"><![CDATA[mArtikel]]></attribute>
+		<attribute name="AchievementUID"><![CDATA[100013]]></attribute>
+		
+	</entry>
+</phynx>

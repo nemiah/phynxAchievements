@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phynx>
+	<entry class="Achievement">
+		<id>11</id>
+		<attribute name="AchievementName"><![CDATA[Lieferschein]]></attribute>
+		<attribute name="AchievementDescription"><![CDATA[Erstellen Sie Ihren ersten Lieferschein]]></attribute>
+		<attribute name="AchievementPointCut"><![CDATA[GRLBM::newMe]]></attribute>
+		<attribute name="AchievementIcon"><![CDATA[./images/navi/lieferschein.png]]></attribute>
+		<attribute name="AchievementPoints"><![CDATA[5]]></attribute>
+		<attribute name="AchievementRequirements"><![CDATA[]]></attribute>
+		<attribute name="AchievementClass"><![CDATA[class CLASSNAME implements iAchievement {
+	public function run(Achievement $A, AchievementStatus $S, array $args) {
+		if($args[0]->isL != "1")
+			return false;
+		
+		return true;
+	}
+}]]></attribute>
+		<attribute name="AchievementPlugin"><![CDATA[Auftraege]]></attribute>
+		<attribute name="AchievementUID"><![CDATA[100008]]></attribute>
+		
+	</entry>
+</phynx>

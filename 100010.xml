@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phynx>
+	<entry class="Achievement">
+		<id>16</id>
+		<attribute name="AchievementName"><![CDATA[Es ist eine Position!]]></attribute>
+		<attribute name="AchievementDescription"><![CDATA[Legen Sie eine Position an]]></attribute>
+		<attribute name="AchievementPointCut"><![CDATA[Posten::newMe]]></attribute>
+		<attribute name="AchievementIcon"><![CDATA[./images/navi/package.png]]></attribute>
+		<attribute name="AchievementPoints"><![CDATA[5]]></attribute>
+		<attribute name="AchievementRequirements"><![CDATA[]]></attribute>
+		<attribute name="AchievementClass"><![CDATA[]]></attribute>
+		<attribute name="AchievementPlugin"><![CDATA[Auftraege]]></attribute>
+		<attribute name="AchievementUID"><![CDATA[100010]]></attribute>
+		
+	</entry>
+</phynx>

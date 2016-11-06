@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phynx>
+	<entry class="Achievement">
+		<id>8</id>
+		<attribute name="AchievementName"><![CDATA[Auslandskunde]]></attribute>
+		<attribute name="AchievementDescription"><![CDATA[Legen Sie einen Kunden an, dessen Land nicht dem Land in den Stammdaten entspricht.]]></attribute>
+		<attribute name="AchievementPointCut"><![CDATA[Adresse::saveMe]]></attribute>
+		<attribute name="AchievementIcon"><![CDATA[./images/navi/address.png]]></attribute>
+		<attribute name="AchievementPoints"><![CDATA[10]]></attribute>
+		<attribute name="AchievementRequirements"><![CDATA[]]></attribute>
+		<attribute name="AchievementClass"><![CDATA[class CLASSNAME implements iAchievement {
+	public function run(Achievement $A, AchievementStatus $S, array $args) {
+		$S = Stammdaten::getActiveStammdaten();
+		if($S->A("land") == "")
+			return false;
+		
+		if($args[0]->land == "")
+			return false;
+		
+		
+		if(ISO3166::getCodeToCountry($args[0]->land) != $S->A("land"))
+			return true;
+		
+		return false;
+	}
+}]]></attribute>
+		<attribute name="AchievementPlugin"><![CDATA[Adressen]]></attribute>
+		<attribute name="AchievementUID"><![CDATA[100004]]></attribute>
+		
+	</entry>
+</phynx>

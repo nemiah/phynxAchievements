@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phynx>
+	<entry class="Achievement">
+		<id>2</id>
+		<attribute name="AchievementName"><![CDATA[Der erste Kunde]]></attribute>
+		<attribute name="AchievementDescription"><![CDATA[Legen Sie eine Adresse an]]></attribute>
+		<attribute name="AchievementPointCut"><![CDATA[Adresse::newMe]]></attribute>
+		<attribute name="AchievementIcon"><![CDATA[./images/navi/address.png]]></attribute>
+		<attribute name="AchievementPoints"><![CDATA[5]]></attribute>
+		<attribute name="AchievementRequirements"><![CDATA[]]></attribute>
+		<attribute name="AchievementClass"><![CDATA[class CLASSNAME implements iAchievement {
+	public function run(Achievement $A, AchievementStatus $S, array $args) {
+		if($args[0]->AuftragID != -1)
+			return false;
+		
+		return true;
+	}
+}]]></attribute>
+		<attribute name="AchievementPlugin"><![CDATA[Adressen]]></attribute>
+		<attribute name="AchievementUID"><![CDATA[100001]]></attribute>
+		
+	</entry>
+</phynx>
