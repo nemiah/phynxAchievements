@@ -26,6 +26,7 @@
 }]]></attribute>
 		<attribute name="AchievementPlugin"><![CDATA[Adressen]]></attribute>
 		<attribute name="AchievementUID"><![CDATA[100004]]></attribute>
+		<attribute name="AchievementLastChange"><![CDATA[0]]></attribute>
 		
 	</entry>
 </phynx>

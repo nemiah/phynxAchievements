@@ -18,6 +18,7 @@
 }]]></attribute>
 		<attribute name="AchievementPlugin"><![CDATA[Uebersicht]]></attribute>
 		<attribute name="AchievementUID"><![CDATA[100017]]></attribute>
+		<attribute name="AchievementLastChange"><![CDATA[0]]></attribute>
 		
 	</entry>
 </phynx>
