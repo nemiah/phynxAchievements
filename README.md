@@ -11,7 +11,7 @@ Installieren Sie zunächst das Erfolge-Plugin aus dem [Shop](https://www.open3a.
 
 Anschließend klicken Sie im Erfolge-Reiter auf "Erfolge aktualisieren" und das System lädt die Erfolge aus diesem Repository herunter.
 
-Auf der rechten Seite des Browser-Fensters finden Sie einen Knopf "Erfolge bearbeiten". Wenn Sie diesen anklicken, so erhalten Sie die Möglichkeit, die Erfolge mit dem Stift-Symbol zu bearbeiten.
+Auf der rechten Seite des Browser-Fensters finden Sie einen Knopf "Erfolge bearbeiten". Wenn Sie diesen anklicken, so erhalten Sie die Möglichkeit, die Erfolge mit dem Stift-Symbol zu bearbeiten oder einen neuen Erfolg anzulegen.
 
 Die einzelnen Felder haben folgende Bedeutung:
 
@@ -24,7 +24,11 @@ Die einzelnen Felder haben folgende Bedeutung:
 * Class: Eine Klasse, die ausgeführt wird, um kompliziertere Erfolge abzubilden. Siehe weiter unten.
 * Plugin: Das Plugin, das von dem Erfolg betroffen ist
 * UID: Die Unique ID des Erfolgs. Wird für die Synchronisation benötigt
-* LastChange: Die letzte Änderung des Erfolgs. Wird für die Synchronisation benötigt
+* LastChange: Die letzte Änderung des Erfolgs. Wird für die Synchronisation benötigt. Wird automatisch gesetzt.
+
+Für die UID berücksichtigen Sie bitte die Liste der Dateinamen aus diesem Repository.
+
+Um den Erfolg zu veröffentlichen klonen Sie dieses Repository und fügen Sie die Datei hinzu, die Sie mit dem Knopf "XML erzeugen" herunterladen können. Anschließend erstellen Sie einen pull request. Nach einer Pürfung des Codes werde ich den Erfolg dann übernehmen.
 
 ## Die point cuts
 
